@@ -1,0 +1,18 @@
+.side-bar
+  .user-name
+    .user-name__top-items
+      %p.user-name__top-items__name
+        chom
+      %ul.user-name__top-items__icons
+        %li.user-name__top-items__create-group
+          = link_to "#" do
+            = icon('fa', 'edit')
+        %li.user-name__top-items__edit-account
+          = link_to "#" do
+            = icon('fa', 'cog')
+  .group-list
+    .group-list__group
+      .group-list__group__group-name
+        丁村
+      .group-list__group__latest-message
+        まだメッセージはありません
