@@ -3,11 +3,13 @@
     .user-name__top-items
       %p.user-name__top-items__name
         chom
-      .user-name__top-items__icons
-        = link_to "#", class: "user-name__top-items__icons__create-group" do
-          <i class='far fa-edit'></i>
-        = link_to "#", class: "user-name__top-items__icons__edit-account" do
-          <i class="fa fa-cog "></i> 
+      %ul.user-name__top-items__icons
+        %li.user-name__top-items__create-group
+          = link_to "#" do
+            = icon('fa', 'edit')
+        %li.user-name__top-items__edit-account
+          = link_to "#" do
+            = icon('fa', 'cog')
   .group-list
     .group-list__group
       .group-list__group__group-name
