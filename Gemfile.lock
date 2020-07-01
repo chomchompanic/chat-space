@@ -141,9 +141,12 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+<<<<<<< Updated upstream
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
+=======
+>>>>>>> Stashed changes
     ruby_parser (3.14.2)
       sexp_processor (~> 4.9)
     sass (3.7.4)
@@ -199,7 +202,10 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2)
+<<<<<<< Updated upstream
   devise
+=======
+>>>>>>> Stashed changes
   font-awesome-sass
   haml-rails
   jbuilder (~> 2.5)
